@@ -17,4 +17,4 @@ Esso ha le seguenti specifiche tecniche:
 - Design responsive ottimizzato specialmente per smartphone, utilizzando soprattutto media query
 - Javascript per le chiamate AJAX a correzione dell'input dell'utente e per rendere immediato l'utilizzo del carrello senza dover ricaricare la pagina, per il popup box a supporto dei prodotti e la ricerca avanzata 
 - PHP per il lato server, quindi costruzione delle pagine, gestione sessioni, input utente, chiamate al database, generazione pagine dinamiche, ecc. 
-- MySQL come database nel suo fork MariaDB
+- MySQL come dbms nel suo fork MariaDB
