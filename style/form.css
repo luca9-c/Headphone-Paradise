@@ -1,0 +1,59 @@
+.edit {
+	background-color: #e3f2fd;
+	border: 1px solid #abcae3;
+}
+
+.edit_key {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+  
+.edit_value {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+.edit_input[type=text],[type=email], textarea {
+	padding: 12px;
+	border: 1px solid #abcae3;
+	border-radius: 4px;
+}
+  
+.edit_input[type=password] {
+	padding: 12px;
+	border: 1px solid #abcae3;
+	border-radius: 4px;
+}
+
+.error_message{
+	color: red;
+	font-size: 0.8rem;
+}
+
+.form {
+	background-color: #e3f2fd;
+	border: 1px solid #abcae3;
+}
+
+.form img {
+	width: 48px;
+	height: 48px;
+}
+
+.right {
+	text-align: right;
+}
+
+.submit {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1100px) {
+	.edit_key, .edit_value, .edit_input[type=submit] {
+	  width: 100%;
+	  margin-top: 0;
+	}
+}

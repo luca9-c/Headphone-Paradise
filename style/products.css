@@ -1,0 +1,49 @@
+#prod-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+.bg-cart {
+	background-color: rgb(13, 110, 253);
+	color: white;
+}
+
+.bg-cart:hover {
+	background-color: rgb(13, 80, 253);
+	color: white;
+}
+
+.card {			
+	border: 1px solid #abcae3;
+	border-radius: 5px;
+}
+
+.img-fluid {
+	width: 100%;
+	height: 13.234rem;
+	object-fit: cover;
+}
+
+.number {
+	max-width: 5em;
+}
+
+.prod_details {
+	width: 100%;
+}
+
+.prod_details tr td {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.shadow {
+    box-shadow: 0 .1rem 0.4rem rgba(0,0,0,.2) !important;
+}
+
+.update {
+	border: none; 
+	background-color: white; 
+	color: #CE8C35;
+}
